@@ -13,6 +13,7 @@ const ResultsList = ({title, results}) => {
                 renderItem={({item}) => {
                     return <ResultsDetail result={item} />
                 }}
+                showsHorizontalScrollIndicator={false}
             />
         </View>
     );
